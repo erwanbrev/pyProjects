@@ -82,7 +82,7 @@ if (profondeur >= 0 and profondeur < 200):
     for row in res1:
         print(f"- Quelques spécifications :\n  - ", row[0], ".")
     for row in res2:
-        print(f"- Les animaux marins présents sont :\n  - ", row[0], ".\n")
+        print(f"- Les animaux marins les plus courants sont :\n  - ", row[0], ".\n")
 elif (profondeur >= 200 and profondeur < 700):
     # zone Mésopélagique
     # rajout du \n dans le code pour un choix decoratif
@@ -91,15 +91,15 @@ elif (profondeur >= 200 and profondeur < 700):
     for row in res4:
         print(f"- Quelques spécifications :\n  - ", row[0])
     for row in res5:
-        print(f"- Les animaux marins présents sont :\n  - ", row[0], ".\n")
+        print(f"- Les animaux marins les plus courants sont :\n  - ", row[0], ".\n")
 elif (profondeur >= 700 and profondeur < 2000):
     # zone Bathypélagique
     for row in res6:
-        print(f"Vous êtes en zone ", row[0], ".\n")
+        print(f"Vous êtes en zone", row[0], ".\n")
     for row in res7:
         print(f"- Quelques spécifications :\n  - ", row[0])
     for row in res8:
-        print(f"- Les animaux marins présents sont :\n  - ", row[0], ".\n")
+        print(f"- Les animaux marins les plus courants sont :\n  - ", row[0], ".\n")
 elif (profondeur >= 2000 and profondeur < 6000):
     # zone Abyssopélagique
     for row in res9:
@@ -107,7 +107,7 @@ elif (profondeur >= 2000 and profondeur < 6000):
     for row in res10:
         print(f"- Quelques spécifications :\n  - ", row[0])
     for row in res11:
-        print(f"- Les animaux marins présents sont :\n  - ", row[0], ".\n")
+        print(f"- Les animaux marins les plus courants sont :\n  - ", row[0], ".\n")
 elif (profondeur >= 6000 and profondeur <= 10000):
     # zone Hadopélagique
     for row in res12:
@@ -115,12 +115,12 @@ elif (profondeur >= 6000 and profondeur <= 10000):
     for row in res13:
         print(f"- Quelques spécifications :\n  - ", row[0])
     for row in res14:
-        print(f"- Les animaux marins présents sont :\n  - ", row[0], ".\n")
+        print(f"- Les animaux marins les plus courants sont :\n  - ", row[0], ".\n")
 elif (profondeur > 10000 and profondeur <= 11000):
     print("La zone concernée est la fosse des Mariannes, puisque c'est la seule connue qui est aussi profonde.\n")
-    print("- Les animaux marins présents sont du même type que ceux de la zone précédente ( Hadopélagique ) : ")
+    print("- Les animaux marins les plus courants sont du même type que ceux de la zone précédente ( Hadopélagique ) : ")
     for row in res14:
-        print(f"- Les animaux marins présents sont :\n  - ", row[0], ".\n")
+        print(f"- C'est à dire :\n  - ", row[0], ".\n")
 # si la profondeur saisie ne correspond à aucune valeur déclarée précédemment alors afficher
 else:
     print("Aucune telle profondeur n'est encore connue de l'humain.\n")
