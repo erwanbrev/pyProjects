@@ -5,6 +5,6 @@
 * **"merSQL"** : C'est un fichier Python, finalisé avec l'aide du même collègue, qui utilise les données de "BDDabysses".
   * Premièrement, le programme a pour but de calculer la pression théorique sous le niveau de la mer, selon la profondeur donnée et ensuite la pression réelle définie par l'addition de la pression atmosphérique et la pression calculée. 
 Deuxièmement, des conditions viennent comparer la profondeur saisie et en fonction, affiche les données sous-marines en allant les chercher dans une base de données.
-* **"merSimuSQL"** : C'est un fichier Python qui simule les données qu'une base de données fournirait.
+* **"merSimuSQL"** : C'est un fichier Python qui simule les données qu'une base de données pourrait fournir.
   * Premièrement, le programme a pour but de calculer la pression théorique sous le niveau de la mer, selon la profondeur donnée et ensuite la pression réelle définie par l'addition de la pression atmosphérique et la pression calculée. 
 Deuxièmement, des conditions viennent comparer la profondeur saisie et en fonction, affiche les données sous-marines.
