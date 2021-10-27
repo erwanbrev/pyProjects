@@ -1,4 +1,3 @@
-import sqlite3
 pATM = 1.013  # pression atmosphérique en bar
 # saisie d'une question
 # rajout du \n voulu pour un choix decoratif
