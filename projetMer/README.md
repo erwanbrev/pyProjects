@@ -1,5 +1,5 @@
 ### "projetMer" est un dossier contenant trois programmes :
-* **"abysse_v4"** : C'est un fichier Python qui est lié à une base de données SQLite du nom de "BDDabysses" créée par un collègue, **Jordan "Shijo" Lefrançois** aka **jordan0602**.
+* **"abysse_v4"** : C'est un fichier Python qui est lié à une base de données SQLite du nom de "BDDabysses" créée par un collègue, **Jordan "Shijo" Lefrançois** aka **@jordan0602**.
   * C’est un programme qui permet de créer une base de données à partir de rien, les informations entrées sont des valeurs utiles au programme telles que la profondeur, comment s’appelle la zone à cette profondeur, les espèces que nous pourrions y trouver ainsi que certaines spécificités liées à cette zone. Ses données pourront donc être lues par la programme final afin de renseigner au mieux l’utilisateur.
 
 * **"merSQL"** : C'est un fichier Python, finalisé avec l'aide du même collègue, qui utilise les données de "BDDabysses".
